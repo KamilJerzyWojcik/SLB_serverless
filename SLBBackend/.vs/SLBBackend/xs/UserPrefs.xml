@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{7FB0793B-FFC9-40DB-9EBD-B8EB8FB243E1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BlobAzureFunction/Models/TreeElement.cs">
+    <Files>
+      <File FileName="BlobAzureFunction/GetAllContainerElements.cs" Line="31" Column="1" />
+      <File FileName="BlobAzureFunction/Services/BlobContainerService.cs" Line="32" Column="40" />
+      <File FileName="BlobAzureFunction/Extensions/EnumerableExtensions.cs" Line="12" Column="14" />
+      <File FileName="BlobAzureFunction/Extensions/TreeElementExtensions.cs" Line="25" Column="23" />
+      <File FileName="BlobAzureFunction/Models/TreeElement.cs" Line="8" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SLBBackend" expanded="True">
+            <Node name="BlobAzureFunction" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="Functions" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="TreeElement.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BlobAzureFunction PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/BlobAzureFunction/GetAllContainerElements.cs" relfile="BlobAzureFunction/GetAllContainerElements.cs" line="21" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
