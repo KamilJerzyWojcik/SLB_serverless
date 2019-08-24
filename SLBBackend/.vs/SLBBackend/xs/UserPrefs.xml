@@ -1,16 +1,12 @@
 ﻿<Properties StartupConfiguration="{7FB0793B-FFC9-40DB-9EBD-B8EB8FB243E1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="BlobAzureFunction/Functions/ContainerElementsQueryFunction.cs">
-    <Files>
-      <File FileName="BlobAzureFunction/Functions/GetAllContainerElements.cs" Line="8" Column="40" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SLBBackend" expanded="True">
             <Node name="BlobAzureFunction" expanded="True">
-              <Node name="Functions" expanded="True">
-                <Node name="ContainerElementsQueryFunction.cs" selected="True" />
-              </Node>
+              <Node name="Functions" expanded="True" />
+              <Node name=".gitignore" selected="True" />
             </Node>
             <Node name="SLBBackend.Services" expanded="True">
               <Node name="BlobServices" expanded="True" />
