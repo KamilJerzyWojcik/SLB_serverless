@@ -26,4 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SLBBackend.Services\SLBBackend.Services.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Functions\BlobAzureFunction.cs" />
+  </ItemGroup>
 </Project>
