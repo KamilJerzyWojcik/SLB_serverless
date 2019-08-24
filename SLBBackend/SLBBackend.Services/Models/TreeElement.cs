@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace BlobAzureFunction.Models
+namespace SLBBackend.Services.Models
 {
     public class TreeElement
     {

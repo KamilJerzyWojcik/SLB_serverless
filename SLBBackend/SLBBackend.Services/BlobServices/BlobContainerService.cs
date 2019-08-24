@@ -1,19 +1,24 @@
 ﻿using Microsoft.Azure.Storage.Blob;
 using Microsoft.Azure.Storage;
-using Microsoft.Azure.WebJobs;
 using System;
 using System.Threading.Tasks;
+using SLBBackend.Services.ConfigurationServices;
 
-namespace BlobAzureFunction.Services
+namespace SLBBackend.Services.BlobServices
 {
-    public static class BlobContainerService
+    public class BlobContainerService : IBlobContainerService
     {
-        public static CloudBlobContainer GetBlobContainer(ExecutionContext context, string reference)
-        {
-            var config = ConfigurationService.GetConfiguation(context);
+        private readonly IConfigurationService _configurationService;
 
-            CloudStorageAccount storageAccount = CloudStorageAccount
-            .Parse(config["ImageStorageAccount"]);
+        public BlobContainerService(IConfigurationService configurationService)
+        {
+            _configurationService = configurationService;
+        }
+
+
+        public CloudBlobContainer GetBlobContainer(string reference)
+        {
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(_configurationService.ImageStorageAccount);
 
             CloudBlobClient client = storageAccount.CreateCloudBlobClient();
 
@@ -24,7 +29,7 @@ namespace BlobAzureFunction.Services
             return container;
         }
 
-        public static async Task<BlobResultSegment> GetBlobsAsync(CloudBlobContainer container)
+        public async Task<BlobResultSegment> GetBlobsAsync(CloudBlobContainer container)
         {
             return await container.ListBlobsSegmentedAsync(
                 string.Empty,

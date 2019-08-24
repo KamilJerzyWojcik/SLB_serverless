@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using BlobAzureFunction.Models;
+using SLBBackend.Services.Models;
 
-namespace BlobAzureFunction.Extensions
+namespace SLBBackend.Services.Extensions
 {
     public static class EnumerableExtensions
     {

@@ -1,0 +1,9 @@
+/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/SLBBackend.Services/bin/Debug/netcoreapp2.1/SLBBackend.Services.deps.json
+/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/SLBBackend.Services/bin/Debug/netcoreapp2.1/SLBBackend.Services.dll
+/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/SLBBackend.Services/bin/Debug/netcoreapp2.1/SLBBackend.Services.pdb
+/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/SLBBackend.Services/obj/Debug/netcoreapp2.1/SLBBackend.Services.csprojAssemblyReference.cache
+/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/SLBBackend.Services/obj/Debug/netcoreapp2.1/SLBBackend.Services.csproj.CoreCompileInputs.cache
+/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/SLBBackend.Services/obj/Debug/netcoreapp2.1/SLBBackend.Services.AssemblyInfoInputs.cache
+/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/SLBBackend.Services/obj/Debug/netcoreapp2.1/SLBBackend.Services.AssemblyInfo.cs
+/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/SLBBackend.Services/obj/Debug/netcoreapp2.1/SLBBackend.Services.dll
+/Users/kamilwojcik/Projects/SLB_serverless/SLBBackend/SLBBackend.Services/obj/Debug/netcoreapp2.1/SLBBackend.Services.pdb

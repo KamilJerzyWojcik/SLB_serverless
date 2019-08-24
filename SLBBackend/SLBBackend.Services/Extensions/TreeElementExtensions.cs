@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using BlobAzureFunction.Models;
+using SLBBackend.Services.Models;
 
-namespace BlobAzureFunction.Extensions
+namespace SLBBackend.Services.Extensions
 {
     public static class TreeElementExtensions
     {
