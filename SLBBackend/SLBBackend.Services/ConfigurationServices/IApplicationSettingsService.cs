@@ -1,6 +1,6 @@
 ﻿namespace SLBBackend.Services.ConfigurationServices
 {
-    public interface IConfigurationService
+    public interface IApplicationSettingsService
     {
         string ImageStorageAccount { get; }
     }

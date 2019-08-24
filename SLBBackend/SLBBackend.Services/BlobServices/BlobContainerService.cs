@@ -8,21 +8,17 @@ namespace SLBBackend.Services.BlobServices
 {
     public class BlobContainerService : IBlobContainerService
     {
-        private readonly IConfigurationService _configurationService;
+        private readonly IAzureClientsService _azureClientsService;
 
-        public BlobContainerService(IConfigurationService configurationService)
+        public BlobContainerService(IAzureClientsService azureClientsService)
         {
-            _configurationService = configurationService;
+            _azureClientsService = azureClientsService;
         }
 
 
         public CloudBlobContainer GetBlobContainer(string reference)
         {
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse(_configurationService.ImageStorageAccount);
-
-            CloudBlobClient client = storageAccount.CreateCloudBlobClient();
-
-            var container = client.GetContainerReference(reference);
+            var container = _azureClientsService.CloudBlobClient.GetContainerReference(reference);
 
             container.CreateIfNotExists();
 

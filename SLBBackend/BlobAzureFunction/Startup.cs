@@ -13,9 +13,9 @@ namespace BlobAzureFunction
         public override void Configure(IFunctionsHostBuilder builder)
         {
             builder.Services.AddScoped<IBlobContainerService, BlobContainerService>();
-            builder.Services.AddScoped<IConfigurationService, ConfigurationService>();
+            builder.Services.AddSingleton<IApplicationSettingsService, ApplicationSettingsService>();
             builder.Services.AddScoped<IUserAccountService, UserAccountService>();
-
+            builder.Services.AddSingleton<IAzureClientsService, AzureClientsService>();
         }
     }
 }

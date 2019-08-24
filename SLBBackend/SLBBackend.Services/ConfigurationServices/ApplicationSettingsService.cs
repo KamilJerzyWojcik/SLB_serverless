@@ -2,9 +2,8 @@
 
 namespace SLBBackend.Services.ConfigurationServices
 {
-    public class ConfigurationService : IConfigurationService
+    public class ApplicationSettingsService : IApplicationSettingsService
     {
-
         public string ImageStorageAccount => Environment.GetEnvironmentVariable("ImageStorageAccount");
     }
 }

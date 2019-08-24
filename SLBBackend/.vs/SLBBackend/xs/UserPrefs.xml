@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{7FB0793B-FFC9-40DB-9EBD-B8EB8FB243E1}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="SLBBackend.Services/ConfigurationServices/AzureClientsService.cs">
+    <Files>
+      <File FileName="SLBBackend.Services/ConfigurationServices/AzureClientsService.cs" Line="1" Column="14" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SLBBackend" expanded="True">
             <Node name="BlobAzureFunction" expanded="True">
               <Node name="Functions" expanded="True" />
-              <Node name=".gitignore" selected="True" />
             </Node>
             <Node name="SLBBackend.Services" expanded="True">
               <Node name="BlobServices" expanded="True" />
-              <Node name="ConfigurationServices" expanded="True" />
+              <Node name="ConfigurationServices" expanded="True">
+                <Node name="AzureClientsService.cs" selected="True" />
+              </Node>
               <Node name="Extensions" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="UserServices" expanded="True" />
